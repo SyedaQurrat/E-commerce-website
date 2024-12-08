@@ -1,3 +1,4 @@
+'use client';
 import Card2 from "@/components/Card-2";
 
 const LatestProducts = () => {

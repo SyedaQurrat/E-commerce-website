@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 
 export default function Card4({ imgSrc, title, code, price }: { imgSrc: string; title: string; code: string; price: string }) {

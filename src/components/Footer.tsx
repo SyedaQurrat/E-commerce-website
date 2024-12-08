@@ -1,4 +1,4 @@
-'use client'; // To ensure this is treated as a Client Component
+'use client'; 
 
 import { RiFacebookCircleFill, RiInstagramFill, RiTwitterFill } from 'react-icons/ri';
 

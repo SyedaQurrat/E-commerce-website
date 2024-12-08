@@ -1,3 +1,4 @@
+'use client';
 import Card from '@/components/Card-1';
 
 export default function FeatureSection() {
