@@ -40,6 +40,9 @@ export default function Footer() {
           <ul className="mt-4 text-[#8A8FB9] text-[16px] font-lato">
             <li>Laptops & Computers</li>
             <li>Cameras & Photography</li>
+            <li>Smart Phones & Tablets</li>
+            <li>Video Games & Consoles</li>
+            <li>Waterproof Headphones</li>
           </ul>
         </div>
 

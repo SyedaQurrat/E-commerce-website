@@ -52,7 +52,7 @@ export default function TrendingProducts() {
       {/* Section Title */}
       <div className="text-center">
         <h2 className="font-josefin text-[#1A0B5B] text-[32px] sm:text-[36px] md:text-[40px] lg:text-[42px] leading-[40px] md:leading-[45px] lg:leading-[49.22px]">
-          Featured Products
+        Trending Products
         </h2>
       </div>
 
