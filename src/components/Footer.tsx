@@ -1,5 +1,6 @@
 'use client'; 
 
+import { Span } from 'next/dist/trace';
 import { RiFacebookCircleFill, RiInstagramFill, RiTwitterFill } from 'react-icons/ri';
 
 export default function Footer() {
@@ -16,15 +17,16 @@ export default function Footer() {
           </h1>
           
           {/* Email Signup */}
-          <div className="mt-4 flex items-center gap-4">
+          <div className="mt-4 flex items-center ">
             <input
               type="email"
               placeholder="Enter your Email Address"
               className="w-[calc(100%-145px)] sm:w-[calc(100%-145px)] h-[44px] bg-white opacity-45 rounded-[3px] px-4 text-sm border-none"
-            />
-            <button className="w-[135px] h-[39px] bg-[#FB2E86] text-white font-roboto text-[16px] font-medium">
+              />
+            <span className="w-[135px] h-[39px] bg-[#FB2E86] text-white font-roboto text-[16px] font-medium items-center">
               Sign Up
-            </button>
+            </span>
+           
           </div>
 
           {/* Contact Info */}
@@ -78,17 +80,17 @@ export default function Footer() {
       {/* Footer Bottom Section */}
       <div className="w-full bg-[#E7E4F8] py-4 mt-6 absolute">
         <div className="max-w-[1920px] mx-auto flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-16">
-          <p className="font-lato text-[#9DA0AE] text-[16px] font-semibold">©Webecy - All Rights Reserved</p>
+          <p className="font-lato text-[#9DA0AE] text-[16px] font-semibold">©Syeda Qurrat - All Rights Reserved</p>
 
           {/* Social Media Icons */}
           <div className="flex items-center gap-4">
-            <a href="#" className="w-[19.42px] h-[19.42px] rounded-full flex items-center justify-center bg-[#002F6C] text-white">
+            <a href="#" className="w-[20px] h-[20px] rounded-full flex items-center justify-center bg-[#002F6C] text-white">
               <RiFacebookCircleFill className="w-[19px] h-[19px]" />
             </a>
-            <a href="#" className="w-[19.42px] h-[19.42px] rounded-full flex items-center justify-center bg-[#002F6C] text-white">
+            <a href="#" className="w-[20px] h-[20px] rounded-full flex items-center justify-center bg-[#002F6C] text-white">
               <RiInstagramFill className="w-[19px] h-[19px]" />
             </a>
-            <a href="#" className="w-[19.42px] h-[19.42px] rounded-full flex items-center justify-center bg-[#002F6C] text-white">
+            <a href="#" className="w-[20px] h-[20px] rounded-full flex items-center justify-center bg-[#002F6C] text-white">
               <RiTwitterFill className="w-[19px] h-[19px]" />
             </a>
           </div>

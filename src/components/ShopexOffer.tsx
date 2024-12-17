@@ -1,100 +1,30 @@
-// 'use client';
-// import { TbTruckDelivery } from "react-icons/tb";
-// import { GiCash } from "react-icons/gi";
-
-// import Card2 from "@/components/Card-3";
-// import React from "react";
-
-// const ShopexOffer = () => {
-//   // List of card data
-//   const cardData = [
-//     {
-//       icon: <TbTruckDelivery/>,
-//       title: "Free Delivery",
-//       description:
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
-//     },
-//     {
-//       icon: "#",
-//       title: <GiCash />
-//       ,
-//       description:
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
-//     },
-//     {
-//       icon: "#",
-//       title: "Premium Quality",
-//       description:
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
-//     },
-//     {
-//       icon: "#",
-//       title: "24 Hours Support",
-//       description:
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
-//     },
-//   ];
-
-//   return (
-//     <section className="my-16">
-//       {/* Title */}
-//       <h2 className="text-[#151875] font-josefin text-[42px] leading-[49.22px] text-center mb-8">
-//         What Shopex Offer!
-//       </h2>
-
-//       {/* Cards */}
-//       {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-8 lg:px-16">
-//         {cardData.map((card, index) => (
-//           <Card2
-//             key={index}
-//             icon={card.icon}
-//             title={card.title}
-//             description={card.description}
-//           />
-//         ))}
-//       </div> */}
-//     </section>
-//   );
-// };
-
-// export default ShopexOffer;
-
-
-
-
-
-
-'use client';
-
-import { TbTruckDelivery } from "react-icons/tb";
-import { FaHandHoldingUsd } from "react-icons/fa";
-import { MdSupportAgent } from "react-icons/md";
-import { AiOutlineStar } from "react-icons/ai";
+"use client";
+import Image from "next/image";
 import React from "react";
 
 const ShopexOffer = () => {
-  // List of card data with React icons
+  // List of card data with image paths
   const cardData = [
     {
-      icon: <TbTruckDelivery className="text-4xl text-[#FB2E86]" />,
+      imgSrc: "/images/truck.jpeg",
       title: "Free Delivery",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
     },
     {
-      icon: <FaHandHoldingUsd className="text-4xl text-[#FB2E86]" />,
+      imgSrc: "/images/cashDelivery.jpeg",
       title: "Cash Back",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
     },
     {
-      icon: <AiOutlineStar className="text-4xl text-[#FB2E86]" />,
+      imgSrc: "/images/quality.jpeg",
       title: "Premium Quality",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
     },
     {
-      icon: <MdSupportAgent className="text-4xl text-[#FB2E86]" />,
+      imgSrc: "/images/24hrs.jpeg",
       title: "24 Hours Support",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
@@ -108,19 +38,35 @@ const ShopexOffer = () => {
         What Shopex Offer!
       </h2>
 
-  
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-8 lg:px-16">
+      {/* Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 md:px-8 lg:px-16">
         {cardData.map((card, index) => (
-          <Card2
+          <div
             key={index}
-            icon={card.icon}
-            title={card.title}
-            description={card.description}
-          />
+            className="bg-white shadow-lg rounded-lg p-6 text-center"
+          >
+            {/* Image */}
+            <Image
+              src={card.imgSrc}
+              alt={card.title}
+              width={80}
+              height={80}
+              className="mx-auto mb-4"
+            />
+            {/* Title */}
+            <h3 className="text-[#151875] font-medium text-lg mb-2">
+              {card.title}
+            </h3>
+            {/* Description */}
+            <p className="text-gray-600 text-sm">{card.description}</p>
+          </div>
         ))}
-      </div> */}
+      </div>
     </section>
   );
 };
 
 export default ShopexOffer;
+
+
+

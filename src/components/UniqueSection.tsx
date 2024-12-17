@@ -1,7 +1,5 @@
-
 'use client';
 import Image from "next/image";
-
 const UniqueSection = () => {
   return (
     <div className="w-full bg-[#F2F0FF] flex flex-col lg:flex-row justify-between items-center py-16 px-8 lg:px-20">

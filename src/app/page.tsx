@@ -2,6 +2,7 @@ import DiscountItem from "@/components/DiscountItem";
 import FeatureSection from "@/components/FeatureSection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Heading from "@/components/Heading";
 import HeroSection from "@/components/HeroSection";
 import LatestProducts from "@/components/LatestProducts";
 import LattestBlog from "@/components/LattestBlog";
@@ -19,6 +20,7 @@ export default function Home() {
     <div>
       <Header/>
       <Navbar/>
+      {/* <Heading/> */}
       <HeroSection/>
       <FeatureSection/>
       <LatestProducts/>
