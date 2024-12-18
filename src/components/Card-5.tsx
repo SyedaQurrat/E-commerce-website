@@ -15,7 +15,7 @@ const Card5 = ({ imgSrc }: { imgSrc: string }) => {
       {/* Image Section */}
       <div className="absolute w-[213px] h-[207px] bottom-0 right-0">
         <Image
-          src={imgSrc} // Dynamically received image source
+          src={`/media-files/${imgSrc}`} // Dynamically received image source
           alt="Product Image"
           width={213}
           height={207}

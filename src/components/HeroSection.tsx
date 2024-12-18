@@ -7,7 +7,7 @@ const HeroSection = () => {
       {/* First Div - Hero Lamp Image */}
       <div className="relative w-[250px] sm:w-[300px] md:w-[350px] lg:w-[387px] h-[250px] sm:h-[300px] md:h-[350px] lg:h-[387px] bg-[#F2F0FF]">
         <Image
-          src="/images/Hero-Lamp.png"
+          src="/media-files/Hero-Lamp.png"
           alt="Hero Lamp"
           width={387}
           height={387}
@@ -35,7 +35,7 @@ const HeroSection = () => {
       <div className="relative w-[400px] sm:w-[500px] md:w-[600px] lg:w-[706px] mt-8 lg:mt-0 bg-[#ECD2FA59] rounded-full">
         {/* Hero Image */}
         <Image
-          src="/images/hero-1.png"
+          src="/media-files/hero-1.png"
           alt="Hero Image"
           width={706}
           height={400}

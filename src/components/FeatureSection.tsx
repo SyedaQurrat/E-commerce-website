@@ -4,25 +4,25 @@ import Card from '@/components/Card-1';
 export default function FeatureSection() {
   const cards = [
     {
-      imgSrc: '/images/Cantilever-chair-1.png',
+      imgSrc: '/media-files/Cantilever-chair-1.png',
       title: 'Cantilever Chair',
       code: 'Code - Y523201',
       price: '$42.00',
     },
     {
-      imgSrc: '/images/Cantilever-chair-2.png',
+      imgSrc: '/media-files/Cantilever-chair-2.png',
       title: 'Cantilever Chair',
       code: 'Code - Y523201',
       price: '$42.00',
     },
     {
-      imgSrc: '/images/Cantilever-chair-3.png',
+      imgSrc: '/media-files/Cantilever-chair-3.png',
       title: 'Cantilever Chair',
       code: 'Code - Y523201',
       price: '$42.00',
     },
     {
-      imgSrc: '/images/Cantilever-chair-4.png',
+      imgSrc: '/media-files/Cantilever-chair-4.png',
       title: 'Cantilever Chair',
       code: 'Code - Y523201',
       price: '$42.00',

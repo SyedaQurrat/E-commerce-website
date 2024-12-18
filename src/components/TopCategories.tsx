@@ -4,25 +4,25 @@
 //   // Card4 data
 //   const cards = [
 //     {
-//       imgSrc: "/images/miniLCW-Chair-1.png",
+//       imgSrc: "/media-files/miniLCW-Chair-1.png",
 //       title: "Mini LCW Chair",
 //       code: "Code - Y523201",
 //       price: "$42.00",
 //     },
 //     {
-//       imgSrc: "/images/miniLCW-Chair-2.png",
+//       imgSrc: "/media-files/miniLCW-Chair-2.png",
 //       title: "Mini LCW Chair",
 //       code: "Code - Y523201",
 //       price: "$42.00",
 //     },
 //     {
-//       imgSrc: "/images/miniLCW-Chair-3.png",
+//       imgSrc: "/media-files/miniLCW-Chair-3.png",
 //       title: "Mini LCW Chair",
 //       code: "Code - Y523201",
 //       price: "$42.00",
 //     },
 //     {
-//       imgSrc: "/images/miniLCW-Chair-4.png",
+//       imgSrc: "/media-files/miniLCW-Chair-4.png",
 //       title: "Mini LCW Chair",
 //       code: "Code - Y523201",
 //       price: "$42.00",
@@ -59,25 +59,25 @@ export default function TopCategories() {
   // Card4 data
   const cards = [
     {
-      imgSrc: "/images/miniLCW-Chair-1.png",
+      imgSrc: "/media-files/miniLCW-Chair-1.png",
       title: "Mini LCW Chair",
       price: "$42.00",
       isRounded: true, // Card with rounded-full shape
     },
     {
-      imgSrc: "/images/miniLCW-Chair-2.png",
+      imgSrc: "/media-files/miniLCW-Chair-2.png",
       title: "Mini LCW Chair",
       isRounded: true, 
       price: "$42.00",
     },
     {
-      imgSrc: "/images/miniLCW-Chair-3.png",
+      imgSrc: "/media-files/miniLCW-Chair-3.png",
       title: "Mini LCW Chair",
       isRounded: true, // Card with rounded-full shape
       price: "$42.00",
     },
     {
-      imgSrc: "/images/miniLCW-Chair-4.png",
+      imgSrc: "/media-files/miniLCW-Chair-4.png",
       title: "Mini LCW Chair",
       isRounded: true,
       price: "$42.00",

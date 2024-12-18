@@ -7,25 +7,25 @@ export default function TrendingProducts() {
   // Card4 data
   const cards = [
     {
-      imgSrc: "/images/Cantilever-chair-5.png",
+      imgSrc: "/media-files/Cantilever-chair-5.png",
       title: "Cantilever Chair",
       code: "Code - Y523201",
       price: "$42.00",
     },
     {
-      imgSrc: "/images/Cantilever-chair-9.png",
+      imgSrc: "/media-files/Cantilever-chair-9.png",
       title: "Cantilever Chair",
       code: "Code - Y523201",
       price: "$42.00",
     },
     {
-      imgSrc: "/images/Cantilever-chair-7.png",
+      imgSrc: "/media-files/Cantilever-chair-7.png",
       title: "Cantilever Chair",
       code: "Code - Y523201",
       price: "$42.00",
     },
     {
-      imgSrc: "/images/Cantilever-chair-8.png",
+      imgSrc: "/media-files/Cantilever-chair-8.png",
       title: "Cantilever Chair",
       code: "Code - Y523201",
       price: "$42.00",
@@ -35,16 +35,16 @@ export default function TrendingProducts() {
   // Card5 data
   const card5Data = [
     {
-      imgSrc: "/images/Products-1.png",
+      imgSrc: "/media-files/Products-1.png",
     },
     {
-      imgSrc: "/images/Products-2.png",
+      imgSrc: "/media-files/Products-2.png",
     },
   ];
 
   // Card6 data
   const card6Data = {
-    imgSrc: "/images/ExecutiveSeat-1chair.png",
+    imgSrc: "/media-files/ExecutiveSeat-1chair.png",
   };
 
   return (

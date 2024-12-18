@@ -7,21 +7,21 @@ export default function LattestBlog() {
   // Sample data for cards
   const blogPosts = [
     {
-      imgSrc: '/images/blog-1.jpg',
+      imgSrc: '/media-filess/blog-1.jpg',
       author: 'SaberAli',
       date: '21 August, 2020',
       title: 'Top Essential Trends in 2021',
       description: 'More off this less hello samlande lied much over tightly circa horse taped mightly',
     },
     {
-      imgSrc: '/images/blog-2.jpg',
+      imgSrc: '/media-filess/blog-2.jpg',
       author: 'Surfauxion',
       date: '21 August, 2020',
       title: 'Top Essential Trends in 2021',
       description: 'More off this less hello samlande lied much over tightly circa horse taped mightly',
     },
     {
-      imgSrc: '/images/blog-3.jpg',
+      imgSrc: '/media-filess/blog-3.jpg',
       author: 'SaberAli',
       date: '21 August, 2020',
       title: 'Top Essential Trends in 2021',

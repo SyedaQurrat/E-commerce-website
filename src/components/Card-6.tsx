@@ -7,7 +7,7 @@ const Card6 = ({ imgSrc }: { imgSrc: string }) => {
       {/* Image */}
       <div className="w-[107px] h-[74px] bg-[#F5F6F8] flex-shrink-0">
         <Image
-          src={imgSrc} // Dynamically received image source
+          src={`/media-files/${imgSrc}`} // Dynamically received image source
           alt="Product Image"
           width={107}
           height={74}

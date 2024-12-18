@@ -24,7 +24,7 @@ export default function Card4({ imgSrc, title, code, price, isRounded }: Card4Pr
         }`} // Apply rounded-full to the image container if isRounded is true
       >
         <Image
-          src={imgSrc}
+          src={`/media-files/${imgSrc}`}
           alt={title || 'Product Image'}
           width={200}
           height={200}

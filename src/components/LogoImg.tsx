@@ -5,7 +5,7 @@ export default function LogoImg() {
   return (
     <div className="flex justify-center items-center mt-[50px]">
       <Image
-        src="/images/logoImage.png" 
+        src="/media-filess/logoImage.png" 
         alt="Logo"
         className="object-contain"
         width={904} // Original width for large screens

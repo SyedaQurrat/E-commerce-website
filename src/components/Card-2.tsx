@@ -11,9 +11,9 @@ const Card2 = ({ imageSrc }: CardProps) => {
       {/* Image Section */}
       <div className="w-[360px] h-[269px] relative">
         <Image
-          src={imageSrc}
+          src={`/media-files/${imageSrc}`} // Updated path for images
           alt="Product Image"
-          layout="fill" //  image fills the parent div
+          layout="fill" // Image fills the parent div
           objectFit="contain" // Prevents cropping
           className="rounded-t-lg" // Optional styling
         />

@@ -6,25 +6,25 @@ const ShopexOffer = () => {
   // List of card data with image paths
   const cardData = [
     {
-      imgSrc: "/images/truck.jpeg",
+      imgSrc: "/media-files/truck.jpeg",
       title: "Free Delivery",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
     },
     {
-      imgSrc: "/images/cashDelivery.jpeg",
+      imgSrc: "/media-files/cashDelivery.jpeg",
       title: "Cash Back",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
     },
     {
-      imgSrc: "/images/quality.jpeg",
+      imgSrc: "/media-files/quality.jpeg",
       title: "Premium Quality",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
     },
     {
-      imgSrc: "/images/24hrs.jpeg",
+      imgSrc: "/media-files/24hrs.jpeg",
       title: "24 Hours Support",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",

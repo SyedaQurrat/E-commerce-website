@@ -7,8 +7,8 @@ const UniqueSection = () => {
       <div className="relative w-[706px] mt-86 lg:mt-0 bg-[#ECD2FA59] rounded-full">
         {/* Hero Image */}
         <Image
-          src="/images/Unique-Sofa.png"
-          alt="Hero Image"
+          src="/media-files/Unique-Sofa.png"
+          alt="Hero media-file"
           width={706}
           height={400}
           className="object-contain rounded-lg"

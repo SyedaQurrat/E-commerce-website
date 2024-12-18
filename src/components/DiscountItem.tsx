@@ -66,7 +66,7 @@ const DiscountItem = () => {
         {/* Right Side Image */}
         <div className="lg:w-1/2 flex justify-center mt-8 lg:mt-0 bg-pink-100 rounded-full">
           <Image
-            src="/images/Discount-Sofa.png"
+            src="/media-files/Discount-Sofa.png"
             alt="Discount Sofa"
             width={699}
             height={597}

@@ -24,7 +24,7 @@ const Aboutus = () => {
         {/* Hero Image Section */}
         <div className="relative w-full sm:w-[552px] h-auto bg-[#2B3CAB] rounded-lg overflow-hidden flex justify-center items-center mt-8 md:mt-0">
           <Image
-            src="/images/Business-Img.jpg"
+            src="/media-files/Business-Img.jpg"
             alt="Hero Image"
             width={706}
             height={400}
