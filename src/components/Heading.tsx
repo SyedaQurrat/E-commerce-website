@@ -61,33 +61,17 @@ const Heading = () => {
   if (!pageName) return null;
 
   return (
-    <div
-      className="w-[1250px] h-[286px] bg-[#F6F5FF] relative"
-      style={{ top: '10px' }}
-    >
-      <div
-        className="absolute w-[400px] h-[36px] text-[#101750] font-josefin font-bold text-[36px] leading-[42.19px]"
-        style={{ top: '100px', left: '200px', textAlign: 'center' }}
-      >
+    <div className="w-full h-auto sm:h-[286px] bg-[#F6F5FF] flex flex-col items-center justify-center sm:relative sm:top-2">
+      {/* Page Name */}
+      <div className="text-[#101750] font-josefin font-bold text-[24px] sm:text-[36px] leading-[1.2] text-center">
         {pageName}
       </div>
-      <div
-        className="absolute w-[43px] h-[19px] text-[#000000] font-lato font-medium text-[16px] leading-[19.2px]"
-        style={{ top: '150px', left: '310px', textAlign: 'center' }}
-      >
-        Home.
-      </div>
-      <div
-        className="absolute w-[42px] h-[19px] text-[#000000] font-lato font-medium text-[16px] leading-[19.2px]"
-        style={{ top: '150px', left: '360px', textAlign: 'center' }}
-      >
-        Pages.
-      </div>
-      <div
-        className="absolute w-auto h-[19px] text-[#FB2E86] font-lato font-medium text-[16px] leading-[19.2px]"
-        style={{ top: '150px', left: '410px', textAlign: 'center' }}
-      >
-        {pageName}
+
+      {/* Breadcrumb Section */}
+      <div className="flex space-x-2 mt-2 sm:mt-4 text-[14px] sm:text-[16px] font-lato font-medium">
+        <span className="text-[#000000]">Home.</span>
+        <span className="text-[#000000]">Pages.</span>
+        <span className="text-[#FB2E86]">{pageName}</span>
       </div>
     </div>
   );
