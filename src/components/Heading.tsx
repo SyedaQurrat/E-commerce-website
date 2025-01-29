@@ -12,6 +12,9 @@ const Heading = () => {
       case '/shop-girdDefault':
         setPageName('Gird Default');
         break;
+      case '/shop':
+        setPageName('Shop');
+        break;
       case '/shopList':
         setPageName('Shop List');
         break;

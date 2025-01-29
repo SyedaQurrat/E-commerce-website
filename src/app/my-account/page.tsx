@@ -1,5 +1,5 @@
 'use client';
-import Header from '@/components/Header';
+import Header from '@/app/Header/page';
 import Navbar from '@/components/Navbar';
 import Heading from '@/components/Heading';
 import Logo from '@/components/LogoImg';

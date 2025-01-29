@@ -31,7 +31,7 @@ const PageHeader = ({ pageName }: PageHeaderProps) => {
 
 // Function to generate breadcrumbs based on the path
 const getBreadcrumbs = (path: string) => {
-  const pathSegments = path.split('/').filter(Boolean); // Splitting the URL path into segments
+  const pathSegments = path.split('/').filter(Boolean); 
   return pathSegments.map((segment, index) => (
     <span key={index}>
       {segment.charAt(0).toUpperCase() + segment.slice(1)}

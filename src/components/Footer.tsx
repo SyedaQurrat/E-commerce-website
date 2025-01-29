@@ -23,7 +23,7 @@ export default function Footer() {
               placeholder="Enter your Email Address"
               className="w-[calc(100%-145px)] sm:w-[calc(100%-145px)] h-[44px] bg-white opacity-45 rounded-[3px] px-4 text-sm border-none"
               />
-            <span className="w-[135px] h-[39px] bg-[#FB2E86] text-white font-roboto text-[16px] font-medium items-center">
+            <span className="w-[110px] h-[39px] bg-[#FB2E86] text-white font-roboto text-[16px] font-medium items-center">
               Sign Up
             </span>
            

@@ -1,10 +1,10 @@
 'use client';
 
-import Header from '@/components/Header';
+import Header from '@/app/Header/page';
 import Navbar from '@/components/Navbar';
 import Heading from '@/components/Heading';
 import Footer from '@/components/Footer';
-import ShopexOffer from '@/components/ShopexOffer';
+import ShopexOffer from '@/components/LandingPage/ShopexOffer';
 import Image from 'next/image';
 
 const Aboutus = () => { 
