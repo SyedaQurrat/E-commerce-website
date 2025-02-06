@@ -116,7 +116,7 @@ export default function ServerHeader() {
             </span>
           </div>
         ) : (
-          <Link href="/login" passHref className="flex items-center gap-2 cursor-pointer">
+          <Link href="/auth/login" passHref className="flex items-center gap-2 cursor-pointer">
             <RiUserLine className="w-5 h-5 text-white" />
             <span className="hidden md:inline text-white font-josefin font-semibold text-[14px] sm:text-[16px]">
               Login
